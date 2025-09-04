@@ -1,2 +1,1 @@
-# auctionassist
-assistente personale per l'asta di alterlega 2025/2026
+# Serie A · Web App (full release)
