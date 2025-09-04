@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'/>
+  <meta name='viewport' content='width=device-width,initial-scale=1'/>
+  <title>Serie A · Player Finder (webapp)</title>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
+<body>
+<header>
+  <div class='topbar'>
+    <h1>Serie A · Player Finder</h1>
+    <button id='themeToggle' class='toggle' aria-label='Cambia tema'>🌓</button>
+  </div>
+  <p class='muted'>Ricerca sui giocatori della stagione <b>2025</b> (2025–2026). Seleziona un nome per vedere anche <b>2024</b> (2024–2025) e lo <b>storico</b>.</p>
+  <input id='search' type='search' placeholder='Cerca per nome…' autocomplete='off'/>
+  <ul id='suggestions' class='list'></ul>
+</header>
+<main id='content' class='card'>
+  <p class='muted'>Digita almeno 2 lettere per cercare un giocatore della stagione 2025.</p>
+</main>
+<footer>
+  <small>Pacchetto statico per GitHub Pages · Stagioni mostrate per <b>anno di inizio</b>.</small>
+</footer>
+<script src='app.js'></script>
+</body>
+</html>
